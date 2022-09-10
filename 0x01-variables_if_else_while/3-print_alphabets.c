@@ -3,7 +3,7 @@
 /**
  * main - prints the alphabet in lowercase, and then in uppercase
  *
- * REturb (0) sucess
+ * Return: (0) sucess
  */
 
 int main(void)
