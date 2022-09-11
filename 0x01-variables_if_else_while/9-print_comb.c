@@ -3,18 +3,20 @@
 /**
  * main - prints all possible combinations of single-digit numbers
  *
- * Return; (0) sucess
+ * Return: (0) sucess
  */
 int main(void)
 {
-char c;
-for (c = '0'; c <= '9'; c++)
+int c;
+
+for (c = 0; c <= 9; c++)
 {
-	putchar(c);
+	putchar(c + '0');
+if (c < 9)
+{
+	putchar(',');
+	putchar(' ');
 }
-for (c = 'a'; c <= 'f'; c++)
-{
-	putchar(c);
 }
 putchar('\n');
 return (0);
