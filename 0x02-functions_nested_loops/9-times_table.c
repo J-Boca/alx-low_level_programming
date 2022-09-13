@@ -17,7 +17,7 @@ int num, mult, prod;
 	_putchar(',');
 	_putchar(' ');
 
-	prod + num + mult;
+	prod = num + mult;
 	if (prod <= 0)
 		_putchar(' ');
 	else
