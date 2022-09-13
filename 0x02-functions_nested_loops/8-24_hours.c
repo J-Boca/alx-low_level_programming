@@ -12,7 +12,7 @@ int minutes = 0;
 int hours_remainder;
 int minutes_remainder;
 
-	while (ihours <= 23)
+	while (hours <= 23)
 {
 	while (minutes <= 59)
 {
