@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * int _isalpha - input is a letter, lowercase or uppercase 1, otherwise 0.
+ * _isalpha - input is a letter, lowercase or uppercase 1, otherwise 0.
  *
  * @c: The character in ASCII code
  *
